@@ -41,6 +41,10 @@ h6 {
     margin: 0;
 }
 
+main{
+    margin-bottom: 300px;
+}
+
 .container {
     width: 130rem;
     margin: 0 auto;
@@ -182,7 +186,6 @@ header {
     position: absolute;
     top: 1900px;
     left: 312px;
-    padding-bottom: 200px;
 }
 
 .wip-top {
@@ -228,12 +231,12 @@ header {
 
 .wip-header-h3 {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 140%;
-color: #FFFFFF;
-margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
 }
 
 .divider {
@@ -250,12 +253,146 @@ margin-bottom: 15px;
 .wip-text-inner {
     margin-right: 18px;
     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+#team {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2500px;
+    left: 312px;
+    padding-bottom: 200px;
+}
+
+.team-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1300px;
+}
+
+.team-icon {
+    max-width: 90px;
+    max-height: 90px;
+    transform: rotate(135deg);
+}
+
+.team-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    padding-left: 20px;
+}
+
+.team-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    max-width: 416px;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.position {
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.btn-bio {
+    margin-top: 30px;
+    width: 143px;
+    border: 1px solid #FFFFFF;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.btn-bio-txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.order{
+position: absolute;
+width: 813px;
+height: 303px;
+left: 575.62px;
+top: 3400px;
+display: flex;
+align-items: center;
+flex-direction: column;
+box-sizing: content-box;
+padding-bottom: 300px;
+margin-bottom: 300px;
+}
+
+.order-header {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+
+.order-text{
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 line-height: 160%;
+text-align: center;
 color: #FFFFFF;
 opacity: 0.5;
+margin-bottom: 45px;
+}
+
+.socials{
+    display: flex;
+    width: 290px;
+    margin-top: 41px;
+    justify-content: space-around;
+}
+
+.btn-socials {
+    border-radius: 50px;
+    width: 50px;
+height: 50px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
 
 .modal {
