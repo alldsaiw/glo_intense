@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-        </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    </style>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Сборка компьютеров на заказ</title>
@@ -37,14 +38,10 @@
                     </defs>
                 </svg>
             </a>
-            <div class="header-menu">
-                <nav class="header-nav">
-                    <a href="#" class="header">Чем мы занимаемся</a>
-                    <a href="#" class="header">Процесс работы</a>
-                    <a href="#" class="header">Команда</a>
-                </nav>
-                <button type="button" class="btn header-btn">Оставить заявку</button>
-            </div>
+            <nav class="header-nav"> <a href="#work" class="header">Чем мы занимаемся</a></nav>
+            <nav class="header-nav"> <a href="#wip" class="header">Процесс работы</a></nav>
+            <nav class="header-nav"><a href="#" class="header">Команда</a></nav>
+            <button type="button" class="btn header-btn">Оставить заявку</button>
         </div>
     </header>
     <!--/header-->
@@ -54,29 +51,102 @@
                 <img src="img/headerBackg.png" alt="background">
             </div>
             <div class="container">
-                <div class="h1"><h1>Собираем игровой ПК под ваш бюджет</h1></div>
+                <div class="h1">
+                    <h1>Собираем игровой ПК под ваш бюджет</h1>
+                </div>
                 <div class="timer">
                     <div class="timer-item">
                         <div class="timer-count">18</div>
-                        <div class="timer-text">дней</div>
+                        <div class="timer-text days">дней</div>
                     </div>
                     <div class="timer-item">
                         <div class="timer-count">18</div>
-                        <div class="timer-text">часов</div>
+                        <div class="timer-text hours">часов</div>
                     </div>
                     <div class="timer-item">
                         <div class="timer-count">18</div>
-                        <div class="timer-text">минут</div>
+                        <div class="timer-text minutes">минут</div>
                     </div>
                     <div class="timer-item">
                         <div class="timer-count">18</div>
-                        <div class="timer-text">секунд</div>
+                        <div class="timer-text seconds">секунд</div>
                     </div>
                 </div>
                 <button class="btn">Оставить заявку</button>
             </div>
         </section>
+        <!--/main display-->
+        <section class="our-work" id="work">
+            <img src="img/about__img.png" alt="" class="our-work-image">
+            <div class="our-work-text">
+                <h2 class="our-work-header">Чем мы занимаемся</h2>
+                <p class="our-work-desc">Помогаем сэкономить до 40 % стоимости игрового компьютера без потери
+                    производительности. Подбираем мощные детали компьютера, заказываем у своих поставщиков или напрямую
+                    у производителей, чтобы сэкономить ваши деньги. Собираем мощный компьютер, на котором можно играть в
+                    любые современные игры и заниматься работой.</p>
+            </div>
+        </section>
+        <!--our work-->
+        <section class="wip" id="wip">
+            <div class="wip-top">
+            <img src="img/wip-icon.svg" alt="" class="wip-bullet">
+            <h2 class="wip-header">Процесс работы</h2>
+            </div>
+            <p class="wip-text">Подробно рассказываем о том, как происходит сборка: <br> от заявки до выдачи вашего заказа
+            </p>
+            <div class="wip-container">
+                <div class="wip-iter">
+                    <h3 class="wip-header-h3">Заявка</h3>
+                    <div class="divider"></div>
+                    <p class="wip-text-inner">Мы получаем вашу заявку, связываемся с&nbspвами для уточнения деталей, чтобы понять
+                        ваши ожидания от будущего компьютера.</p>
+                </div>
+                <div class="wip-iter">
+                    <h3 class="wip-header-h3">Подбор</h3>
+                    <div class="divider-tr"></div>
+                    <p class="wip-text-inner">После оплаты подбираем комплектующие, которые дадут максимальную
+                        производительность. Заказываем их&nbspнапрямую у поставщиков.</p>
+                </div>
+                <div class="wip-iter">
+                    <h3 class="wip-header-h3">Сборка</h3>
+                    <div class="divider"></div>
+                    <p class="wip-text-inner">Собираем компьютер, проводим стартовую диагностику, устанавливаем операционную
+                        систему и&nbspнеобходимые драйверы для работы.</p>
+                </div>
+                <div class="wip-iter">
+                    <h3 class="wip-header-h3">Выдача</h3>
+                    <div class="divider-tr"></div>
+                    <p class="wip-text-inner">Отдаём компьютер вам в&nbspназначенный срок, проводим вместе тестирование,
+                        подписываем документы о&nbspвыполнении работы и&nbspгарантии.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="team">
+            
+        </section>
+        <form action="#" class="modal block-center">
+            <div class="modal-inner">
+                <div class="modal-close"><img src="img/close.svg" alt=""></div>
+                <h3 class="m-header">Заявка на сборку ПК</h3>
+                <div class="m-desc">Мы свяжемся с вами, чтобы обсудить детали</div>
+                <div class="m-element">
+                    <div class="m-item">
+                        <input type="text" class="m-input" placeholder="Ваше имя">
+                    </div>
+                    <div class="m-item">
+                        <input type="tel" class="m-input" placeholder="Телефон">
+                    </div>
+                    <div class="m-item">
+                        <input type="email" class="m-input" placeholder="E-mail">
+                    </div>
+
+                </div>
+                <button type="submit" class="btn">Отправить</button>
+            </div>
+        </form>
     </main>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
