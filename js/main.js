@@ -23,3 +23,19 @@ modalClose.addEventListener('click', () => {
     modalWindow.style.display = 'none';
     body.classList.remove('noscroll');
 });
+
+const btnUp = document.querySelector('.btn-up');
+window.onscroll = function () {
+    if (window.pageYOffset > 580) {
+        btnUp.style.display = 'block';
+    } else {
+        btnUp.style.display = 'none';
+    }
+};
+btnUp.addEventListener('click', function () {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+    });
