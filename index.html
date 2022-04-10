@@ -56,19 +56,19 @@
                 </div>
                 <div class="timer">
                     <div class="timer-item">
-                        <div class="timer-count">18</div>
+                        <div class="timer-count count-days">18</div>
                         <div class="timer-text days">дней</div>
                     </div>
                     <div class="timer-item">
-                        <div class="timer-count">18</div>
+                        <div class="timer-count count-hours">18</div>
                         <div class="timer-text hours">часов</div>
                     </div>
                     <div class="timer-item">
-                        <div class="timer-count">18</div>
+                        <div class="timer-count count-minutes">18</div>
                         <div class="timer-text minutes">минут</div>
                     </div>
                     <div class="timer-item">
-                        <div class="timer-count">18</div>
+                        <div class="timer-count count-seconds">18</div>
                         <div class="timer-text seconds">секунд</div>
                     </div>
                 </div>
@@ -211,28 +211,32 @@
                     </svg>
                 </button>
             </div>
-        </section>    
+        </section>
+        <button class="btn-up">
+            <img src="img/up.svg" alt="">
+        </button>
     </main>
-        <form action="#" class="modal block-center">
-            <div class="modal-inner">
-                <div class="modal-close"><img src="img/close.svg" alt=""></div>
-                <h3 class="m-header">Заявка на сборку ПК</h3>
-                <div class="m-desc">Мы свяжемся с вами, чтобы обсудить детали</div>
-                <div class="m-element">
-                    <div class="m-item">
-                        <input type="text" class="m-input" placeholder="Ваше имя">
-                    </div>
-                    <div class="m-item">
-                        <input type="tel" class="m-input" placeholder="Телефон">
-                    </div>
-                    <div class="m-item">
-                        <input type="email" class="m-input" placeholder="E-mail">
-                    </div>
-
+    <form action="#" class="modal block-center">
+        <div class="modal-inner">
+            <div class="modal-close"><img src="img/close.svg" alt=""></div>
+            <h3 class="m-header">Заявка на сборку ПК</h3>
+            <div class="m-desc">Мы свяжемся с вами, чтобы обсудить детали</div>
+            <div class="m-element">
+                <div class="m-item">
+                    <input type="text" class="m-input" placeholder="Ваше имя">
                 </div>
-                <button type="submit" class="btn">Отправить</button>
+                <div class="m-item">
+                    <input type="tel" class="m-input" placeholder="Телефон">
+                </div>
+                <div class="m-item">
+                    <input type="email" class="m-input" placeholder="E-mail">
+                </div>
+
             </div>
-        </form>
+            <button type="submit" class="btn">Отправить</button>
+        </div>
+    </form>
     <script src="js/main.js"></script>
 </body>
+
 </html>
